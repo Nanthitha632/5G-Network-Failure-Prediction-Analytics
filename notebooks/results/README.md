@@ -1,4 +1,4 @@
-# 📊 Model Evaluation Results
+#  Model Evaluation Results
 
 This folder documents the evaluation results from the predictive modeling stage of the 5G Network Failure Prediction project.
 
