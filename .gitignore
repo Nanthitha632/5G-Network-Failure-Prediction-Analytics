@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter / Databricks temporary files
+.ipynb_checkpoints/
+.databricks/
+
+# Local data files
+*.csv
+*.parquet
+*.json
+
+# Environment / credentials
+.env
+*.env
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Power BI temporary files
+*.pbix~
