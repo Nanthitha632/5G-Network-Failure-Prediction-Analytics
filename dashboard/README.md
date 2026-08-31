@@ -1,36 +1,35 @@
-# 📊 Power BI Network Operations Dashboard
+# 📊 5G Network Analytics Dashboard
 
-This folder contains the Power BI reporting and visualization components of the 5G Network Failure Prediction & Analytics project.
+This folder contains the final Power BI dashboard developed for the **5G Network Failure Prediction & Analytics** project.
 
-## Dashboard Objectives
+## Dashboard Purpose
 
-The dashboard is designed to provide operational visibility into:
+The dashboard transforms processed network telemetry and predictive analytics outputs into an interactive operational view for monitoring 5G network performance and failure risk.
 
-- Overall network health
+## Key Analytics
+
+The dashboard supports analysis of:
+
+- Network health and performance KPIs
 - Failure events and failure rates
 - Regional network performance
-- Cell-level performance
-- High-risk network cells
-- Predicted 30-minute failure risk
+- Cell-level network behavior
 - Traffic load and connected users
 - Packet loss and latency
 - Throughput and signal performance
 - Network alarms
-- Anomaly detection
-- Predictive risk categories
+- Predicted failure risk
+- High-risk network cells
+- Anomaly and predictive analytics outputs
 
-## Data Source
+## Power BI Template
 
-The Power BI serving layer is generated from the analytics-ready Gold layer and predictive-model outputs produced in Databricks.
+The `.pbit` file included in this folder contains the reusable Power BI report template and reporting structure used for the project.
 
-## Planned Dashboard Pages
+## Technology
 
-1. Executive Network Overview
-2. Network Performance & KPI Analysis
-3. Failure & Risk Intelligence
-4. Cell-Level Diagnostics
-5. Predictive Analytics & Anomaly Monitoring
+**Power BI | DAX | Databricks | PySpark | SQL | Python**
 
-## Technologies
+## Dashboard Preview
 
-Power BI | DAX | Databricks | PySpark | SQL | Python
+A dashboard preview image is included in this folder so the final analytical output can be viewed directly from GitHub.
